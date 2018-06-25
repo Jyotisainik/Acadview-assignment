@@ -47,7 +47,7 @@ j3="book"
 j4="chocolate"
 if 	((n>=1)and(n<50)):
 	print("sorry! no prize this time")
-elif ((n>151)and(n<=150)):
+elif ((n>51)and(n<=150)):
 		print("congratulations!you have won %s"%(j2))
 elif (n>=151)and(n<=180):
 		print("congratulations!you have won %s"%(j3))
