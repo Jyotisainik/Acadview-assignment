@@ -50,5 +50,17 @@ def rec(x):
 print(rec(n))
 
 
-
-
+#write a python program to check an entered string is a python keyword or not,if it is keyword print with a message and if it is not it  will display all the keywords of python.
+n=int(input("enter any number"))
+import keyword
+k=keyword.kwlist
+print(k)
+for i in k:
+	if i==n:
+		print("keyword")
+	else:
+		print(k)
+		
+	
+	
+	
